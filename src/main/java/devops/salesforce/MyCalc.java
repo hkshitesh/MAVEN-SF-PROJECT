@@ -21,6 +21,10 @@ public class MyCalc {
 	{
 		return a%b;
 	}
+	public void show()
+	{
+		System.out.println("Hello Salesforce");
+	}
 
 	public static void main(String[] args) {
 		
@@ -30,5 +34,6 @@ public class MyCalc {
 		System.out.println("Mul is: "+calc.mul(20, 10));
 		System.out.println("Div is: "+calc.div(20, 10));
 		System.out.println("Mod is: "+calc.mod(20, 10));
+		calc.show();
 	}
 }
